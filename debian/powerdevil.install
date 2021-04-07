@@ -1,0 +1,9 @@
+etc/dbus-1/system.d/org.kde.powerdevil.backlighthelper.conf
+etc/dbus-1/system.d/org.kde.powerdevil.discretegpuhelper.conf
+etc/xdg/autostart/powerdevil.desktop
+usr/lib/*/libexec
+usr/lib/*/libpowerdevilconfigcommonprivate.so.*
+usr/lib/*/qt5
+usr/share/dbus-1
+usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy
+usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy
