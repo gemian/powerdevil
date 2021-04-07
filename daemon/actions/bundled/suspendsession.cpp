@@ -26,6 +26,8 @@
 #include "suspendsessionadaptor.h"
 
 #include <kwinkscreenhelpereffect.h>
+#include <syslog.h>
+#include <sys/stat.h>
 
 #include <KConfigGroup>
 #include <KIdleTime>
@@ -118,6 +120,12 @@ void SuspendSession::triggerImpl(const QVariantMap &args)
             return;
         }
 
+        struct stat buffer;
+        if (stat("/lib/systemd/system/repowerd.service", &buffer) == 0) {
+            syslog(LOG_NOTICE, "repowerd found avoid suspend");
+            return;
+        }
+
         if (!args["SkipFade"].toBool()) {
             m_savedArgs = args;
             m_fadeEffect->start();
@@ -131,7 +139,7 @@ void SuspendSession::triggerImpl(const QVariantMap &args)
 
     // Switch for real action
     KJob *suspendJob = nullptr;
-    switch ((Mode) (args["Type"].toUInt())) {
+    switch (mode) {
         case ToRamMode:
             Q_EMIT aboutToSuspend();
             suspendJob = backend()->suspend(PowerDevil::BackendInterface::ToRam);

@@ -28,6 +28,9 @@
 #include <powerdevilcore.h>
 #include <powerdevil_debug.h>
 
+#include <sys/stat.h>
+#include <syslog.h>
+
 #include <QGuiApplication>
 #include <QX11Info>
 #include <QDebug>
@@ -45,7 +48,12 @@ PowerDevilDPMSAction::PowerDevilDPMSAction(QObject* parent, const QVariantList &
     setRequiredPolicies(PowerDevil::PolicyAgent::ChangeScreenSettings);
 
     if (QX11Info::isPlatformX11()) {
-        m_helper.reset(new XcbDpmsHelper);
+        struct stat buffer;
+        if (stat ("/lib/systemd/system/repowerd.service", &buffer) == 0) {
+            syslog(LOG_NOTICE, "repowerd found");
+        } else {
+            m_helper.reset(new XcbDpmsHelper);
+        }
     } else if (QGuiApplication::platformName().startsWith(QLatin1String("wayland"), Qt::CaseInsensitive)) {
         m_helper.reset(new WaylandDpmsHelper);
     }
