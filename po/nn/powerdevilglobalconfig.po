@@ -1,0 +1,143 @@
+# Translation of powerdevilglobalconfig to Norwegian Nynorsk
+#
+# Eirik U. Birkeland <eirbir@gmail.com>, 2009, 2010, 2011.
+# Karl Ove Hufthammer <karl@huftis.org>, 2009, 2015, 2016, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-09-14 06:49+0200\n"
+"PO-Revision-Date: 2018-11-05 21:58+0100\n"
+"Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eirik U. Birkeland,Karl Ove Hufthammer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "eirbir@gmail.com,karl@huftis.org"
+
+#: GeneralPage.cpp:105
+#, kde-format
+msgid "Do nothing"
+msgstr "Ikkje gjer noko"
+
+#: GeneralPage.cpp:107
+#, kde-format
+msgid "Suspend"
+msgstr "Gå i kvilemodus"
+
+#: GeneralPage.cpp:110
+#, kde-format
+msgid "Hibernate"
+msgstr "Gå i dvalemodus"
+
+#: GeneralPage.cpp:112
+#, kde-format
+msgid "Shut down"
+msgstr "Slå av maskina"
+
+#: GeneralPage.cpp:209
+#, kde-format
+msgid ""
+"The Power Management Service appears not to be running.\n"
+"This can be solved by starting or scheduling it inside \"Startup and Shutdown"
+"\""
+msgstr ""
+"Det ser ikkje ut til at straumstyringstenesta køyrer.\n"
+"Du kan løysa dette ved å starta ho eller setja ho opp for automatisk start "
+"under «Oppstart og avslutting»."
+
+#. i18n: ectx: property (text), widget (QLabel, batteryLevelsLabel)
+#: generalPage.ui:22
+#, kde-format
+msgid "<b>Battery Levels                     </b>"
+msgstr "<b>Batterinivå</b>>"
+
+#. i18n: ectx: property (text), widget (QLabel, lowLabel)
+#: generalPage.ui:29
+#, kde-format
+msgid "&Low level:"
+msgstr "&Lågt nivå:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, lowSpin)
+#: generalPage.ui:45
+#, kde-format
+msgid "Low battery level"
+msgstr "Lågt batterinivå"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, lowSpin)
+#: generalPage.ui:48
+#, kde-format
+msgid "Battery will be considered low when it reaches this level"
+msgstr "Batteriet vert rekna å vera på lågt nivå når det når dette nivået"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, lowSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, criticalSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, lowPeripheralSpin)
+#: generalPage.ui:51 generalPage.ui:83 generalPage.ui:158
+#, no-c-format, kde-format
+msgid "%"
+msgstr " %"
+
+#. i18n: ectx: property (text), widget (QLabel, criticalLabel)
+#: generalPage.ui:61
+#, kde-format
+msgid "&Critical level:"
+msgstr "&Kritisk batterinivå:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, criticalSpin)
+#: generalPage.ui:77
+#, kde-format
+msgid "Critical battery level"
+msgstr "Kritisk batterinivå"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, criticalSpin)
+#: generalPage.ui:80
+#, kde-format
+msgid "Battery will be considered critical when it reaches this level"
+msgstr ""
+"Batteriet vert rekna å vera på kritisk lågt nivå når det når dette nivået"
+
+#. i18n: ectx: property (text), widget (QLabel, BatteryCriticalLabel)
+#: generalPage.ui:93
+#, kde-format
+msgid "A&t critical level:"
+msgstr "&Kritisk lågt batterinivå:"
+
+#. i18n: ectx: property (text), widget (QPushButton, notificationsButton)
+#: generalPage.ui:144
+#, kde-format
+msgid "Configure Notifications..."
+msgstr "Set opp varslingar …"
+
+#. i18n: ectx: property (text), widget (QLabel, lowPeripheralLabel)
+#: generalPage.ui:151
+#, kde-format
+msgid "Low level for peripheral devices:"
+msgstr "Lågt nivå for tilleggsmaskinvare:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, pausePlayersCheckBox)
+#: generalPage.ui:168
+#, kde-format
+msgid "Enabled"
+msgstr "På"
+
+#. i18n: ectx: property (text), widget (QLabel, pausePlayersLabel)
+#: generalPage.ui:175
+#, kde-format
+msgid "Pause media players when suspending:"
+msgstr "Set mediespelarar på pause ved kvile-/dvalemodus:"

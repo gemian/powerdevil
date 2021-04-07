@@ -1,0 +1,147 @@
+# translation of powerdevilglobalconfig.po to Latvian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Maris Nartiss <maris.kde@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: powerdevilglobalconfig\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-09-14 06:49+0200\n"
+"PO-Revision-Date: 2011-08-24 09:48+0300\n"
+"Last-Translator: Maris Nartiss <maris.kde@gmail.com>\n"
+"Language-Team: Latvian\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Māris Nartišs"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "maris.kde@gmail.com"
+
+#: GeneralPage.cpp:105
+#, kde-format
+msgid "Do nothing"
+msgstr "Nedarīt neko"
+
+#: GeneralPage.cpp:107
+#, kde-format
+msgid "Suspend"
+msgstr ""
+
+#: GeneralPage.cpp:110
+#, kde-format
+msgid "Hibernate"
+msgstr "Hibrenēt"
+
+#: GeneralPage.cpp:112
+#, fuzzy, kde-format
+#| msgid "Shutdown"
+msgid "Shut down"
+msgstr "Izslēgt"
+
+#: GeneralPage.cpp:209
+#, kde-format
+msgid ""
+"The Power Management Service appears not to be running.\n"
+"This can be solved by starting or scheduling it inside \"Startup and Shutdown"
+"\""
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, batteryLevelsLabel)
+#: generalPage.ui:22
+#, fuzzy, kde-format
+#| msgid "Battery Levels"
+msgid "<b>Battery Levels                     </b>"
+msgstr "Baterijas līmeņi"
+
+#. i18n: ectx: property (text), widget (QLabel, lowLabel)
+#: generalPage.ui:29
+#, fuzzy, kde-format
+#| msgid "Low battery level"
+msgid "&Low level:"
+msgstr "Zems baterijas izlādes līmenis"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, lowSpin)
+#: generalPage.ui:45
+#, kde-format
+msgid "Low battery level"
+msgstr "Zems baterijas izlādes līmenis"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, lowSpin)
+#: generalPage.ui:48
+#, kde-format
+msgid "Battery will be considered low when it reaches this level"
+msgstr ""
+"Tiks uzskatīts, ka baterija ir sasniegusi zemu līmeni, kad tās izlādes "
+"līmenis būs sasniedzis šo"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, lowSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, criticalSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, lowPeripheralSpin)
+#: generalPage.ui:51 generalPage.ui:83 generalPage.ui:158
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (text), widget (QLabel, criticalLabel)
+#: generalPage.ui:61
+#, fuzzy, kde-format
+#| msgid "Critical battery level"
+msgid "&Critical level:"
+msgstr "Kritisks baterijas izlādes līmenis"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, criticalSpin)
+#: generalPage.ui:77
+#, kde-format
+msgid "Critical battery level"
+msgstr "Kritisks baterijas izlādes līmenis"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, criticalSpin)
+#: generalPage.ui:80
+#, kde-format
+msgid "Battery will be considered critical when it reaches this level"
+msgstr ""
+"Tiks uzskatīts, ka baterija ir sasniegusi kritisku līmeni, kad tās izlādes "
+"līmenis būs sasniedzis šo"
+
+#. i18n: ectx: property (text), widget (QLabel, BatteryCriticalLabel)
+#: generalPage.ui:93
+#, fuzzy, kde-format
+#| msgid "Battery is at critical level at"
+msgid "A&t critical level:"
+msgstr "Baterijas izlāde ir sasniegusi kritisku līmeni"
+
+#. i18n: ectx: property (text), widget (QPushButton, notificationsButton)
+#: generalPage.ui:144
+#, kde-format
+msgid "Configure Notifications..."
+msgstr "Konfigurēt ziņojumus..."
+
+#. i18n: ectx: property (text), widget (QLabel, lowPeripheralLabel)
+#: generalPage.ui:151
+#, kde-format
+msgid "Low level for peripheral devices:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, pausePlayersCheckBox)
+#: generalPage.ui:168
+#, kde-format
+msgid "Enabled"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, pausePlayersLabel)
+#: generalPage.ui:175
+#, kde-format
+msgid "Pause media players when suspending:"
+msgstr ""

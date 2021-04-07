@@ -1,0 +1,73 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# g.sora <g.sora@tiscali.it>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-09-14 06:49+0200\n"
+"PO-Revision-Date: 2011-10-20 10:10+0200\n"
+"Last-Translator: g.sora <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-it@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Giovanni Sora"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "g.sora@tiscali.it"
+
+#: EditPage.cpp:192
+#, kde-format
+msgid ""
+"The KDE Power Management System will now generate a set of defaults based on "
+"your computer's capabilities. This will also erase all existing "
+"modifications you made. Are you sure you want to continue?"
+msgstr ""
+"Le Systema de gestion de Energia de KDE ora generara un insimul de profilos "
+"predefinite basate sur le capacitate de tu computator. Isto anque cancellara "
+"omne modificationes que tu ha facite. Tu es secur que tu vole continuar?"
+
+#: EditPage.cpp:195
+#, kde-format
+msgid "Restore Default Profiles"
+msgstr "Restabili profilos predefinite"
+
+#: EditPage.cpp:274
+#, kde-format
+msgid ""
+"The Power Management Service appears not to be running.\n"
+"This can be solved by starting or scheduling it inside \"Startup and Shutdown"
+"\""
+msgstr ""
+"Le Servicio  de gestion de Energia  sembla non esser executante.\n"
+"Isto pote esser resolvite per initiar o planificar lo intra \"Initia e Claude"
+"\""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: profileEditPage.ui:21
+#, kde-format
+msgid "On AC Power"
+msgstr "Sur alimentation AC"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: profileEditPage.ui:31
+#, kde-format
+msgid "On Battery"
+msgstr "Sur batteria"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: profileEditPage.ui:41
+#, kde-format
+msgid "On Low Battery"
+msgstr "Sur batteria basse"

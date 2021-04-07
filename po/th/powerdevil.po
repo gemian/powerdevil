@@ -1,0 +1,473 @@
+# translation of powerdevil.po to Thai
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Thanomsub Noppaburana <donga.nb@gmail.com>, 2008, 2010.
+# Narachai Sakorn <narachai@gmail.com>, 2008.
+# Phuwanat Sakornsakolpat <narachai@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: powerdevil\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-09-14 06:49+0200\n"
+"PO-Revision-Date: 2010-12-18 14:04+0700\n"
+"Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ภูวณัฏฐ์ สาครสกลพัฒน์, ถนอมทรัพย์ นพบูรณ์"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "narachai@gmail.com, donga.nb@gmail.com"
+
+#: actions/bundled/brightnesscontrol.cpp:52
+#: actions/bundled/handlebuttonevents.cpp:57
+#: actions/bundled/keyboardbrightnesscontrol.cpp:57
+#, fuzzy, kde-format
+#| msgid "Profile Management"
+msgctxt "Name for powerdevil shortcuts category"
+msgid "Power Management"
+msgstr "การจัดการโพรไฟล์"
+
+#: actions/bundled/brightnesscontrol.cpp:55
+#, fuzzy, kde-format
+#| msgctxt "Global shortcut"
+#| msgid "Increase Screen Brightness"
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Screen Brightness"
+msgstr "เพิ่มความสว่างของหน้าจอ"
+
+#: actions/bundled/brightnesscontrol.cpp:60
+#, fuzzy, kde-format
+#| msgctxt "Global shortcut"
+#| msgid "Decrease Screen Brightness"
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Screen Brightness"
+msgstr "ลดความสว่างของหน้าจอ"
+
+#: actions/bundled/brightnesscontrolconfig.cpp:71
+#, kde-format
+msgctxt "Brightness level, label for the slider"
+msgid "Level"
+msgstr "ระดับ"
+
+#: actions/bundled/dimdisplayconfig.cpp:64
+#: actions/bundled/runscriptconfig.cpp:83
+#: actions/bundled/suspendsessionconfig.cpp:79
+#: actions/dpms/powerdevildpmsactionconfig.cpp:60
+#, kde-format
+msgid " min"
+msgstr " นาที"
+
+#: actions/bundled/dimdisplayconfig.cpp:74
+#: actions/bundled/runscriptconfig.cpp:86
+#: actions/bundled/runscriptconfig.cpp:107
+#: actions/bundled/suspendsessionconfig.cpp:100
+#, kde-format
+msgid "After"
+msgstr "หลังจาก"
+
+#: actions/bundled/handlebuttonevents.cpp:62
+#, fuzzy, kde-format
+#| msgid "Suspend to RAM"
+msgctxt "@action:inmenu Global shortcut"
+msgid "Suspend"
+msgstr "พักเครื่องโดยเก็บสถานะไว้ในหน่วยความจำ"
+
+#: actions/bundled/handlebuttonevents.cpp:67
+#, fuzzy, kde-format
+#| msgid "Hibernate"
+msgctxt "@action:inmenu Global shortcut"
+msgid "Hibernate"
+msgstr "จำศีล"
+
+#: actions/bundled/handlebuttonevents.cpp:72
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Power Off"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:87
+#, kde-format
+msgctxt "Execute action on lid close even when external monitor is connected"
+msgid "Even when an external monitor is connected"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:97
+#, kde-format
+msgid "Do nothing"
+msgstr "ไม่ดำเนินการใด ๆ"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:99
+#: actions/bundled/suspendsessionconfig.cpp:82
+#, fuzzy, kde-format
+#| msgid "Suspend to RAM"
+msgid "Suspend"
+msgstr "พักเครื่องโดยเก็บสถานะไว้ในหน่วยความจำ"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:102
+#: actions/bundled/suspendsessionconfig.cpp:85
+#, kde-format
+msgid "Hibernate"
+msgstr "จำศีล"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:105
+#: actions/bundled/suspendsessionconfig.cpp:88
+#, kde-format
+msgid "Hybrid suspend"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:107
+#: actions/bundled/suspendsessionconfig.cpp:90
+#, fuzzy, kde-format
+#| msgid "Shutdown"
+msgid "Shut down"
+msgstr "ปิดเครื่อง"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:108
+#: actions/bundled/suspendsessionconfig.cpp:91
+#, kde-format
+msgid "Lock screen"
+msgstr "ล็อคหน้าจอ"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:110
+#, kde-format
+msgid "Prompt log out dialog"
+msgstr "เปิดกล่องการออกจากระบบ"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:112
+#, kde-format
+msgid "Turn off screen"
+msgstr "ปิดจอภาพ"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:138
+#, kde-format
+msgid "When laptop lid closed"
+msgstr "เมื่อมีการปิดฝาเครื่องแล็ปท็อป"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:149
+#, kde-format
+msgid "When power button pressed"
+msgstr "เมื่อกดปุ่มเปิด/ปิดบนตัวเครื่อง"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:61
+#, fuzzy, kde-format
+#| msgctxt "Global shortcut"
+#| msgid "Increase Screen Brightness"
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Keyboard Brightness"
+msgstr "เพิ่มความสว่างของหน้าจอ"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:66
+#, fuzzy, kde-format
+#| msgctxt "Global shortcut"
+#| msgid "Decrease Screen Brightness"
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Keyboard Brightness"
+msgstr "ลดความสว่างของหน้าจอ"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:71
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Toggle Keyboard Backlight"
+msgstr ""
+
+#: actions/bundled/keyboardbrightnesscontrolconfig.cpp:71
+#, fuzzy, kde-format
+#| msgctxt "Brightness level, label for the slider"
+#| msgid "Level"
+msgctxt "@label:slider Brightness level"
+msgid "Level"
+msgstr "ระดับ"
+
+#: actions/bundled/runscriptconfig.cpp:72
+#, kde-format
+msgid "Script"
+msgstr "สคริปต์"
+
+#: actions/bundled/runscriptconfig.cpp:84
+#, kde-format
+msgid "On Profile Load"
+msgstr "เมื่อโหลดโพรไฟล์"
+
+#: actions/bundled/runscriptconfig.cpp:85
+#, kde-format
+msgid "On Profile Unload"
+msgstr "เมื่อไม่ได้โหลดโพรไฟล์"
+
+#: actions/bundled/runscriptconfig.cpp:96
+#, kde-format
+msgid "Run script"
+msgstr "สั่งสคริปต์ให้ทำงาน"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:75
+#: actions/bundled/wirelesspowersavingconfig.cpp:80
+#: actions/bundled/wirelesspowersavingconfig.cpp:85
+#, kde-format
+msgid "Leave unchanged"
+msgstr ""
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:76
+#: actions/bundled/wirelesspowersavingconfig.cpp:81
+#: actions/bundled/wirelesspowersavingconfig.cpp:86
+#, fuzzy, kde-format
+#| msgid "Turn off screen"
+msgid "Turn off"
+msgstr "ปิดจอภาพ"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:77
+#: actions/bundled/wirelesspowersavingconfig.cpp:82
+#: actions/bundled/wirelesspowersavingconfig.cpp:87
+#, fuzzy, kde-format
+#| msgid "Turn off screen"
+msgid "Turn on"
+msgstr "ปิดจอภาพ"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:110
+#, kde-format
+msgid "Wi-Fi"
+msgstr ""
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:111
+#, kde-format
+msgid "Mobile broadband"
+msgstr ""
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:112
+#, kde-format
+msgid "Bluetooth"
+msgstr ""
+
+#: actions/dpms/powerdevildpmsactionconfig.cpp:61
+#, kde-format
+msgid "Switch off after"
+msgstr "ปิดหลังจาก"
+
+#: backends/upower/backlighthelper.cpp:204
+#, kde-format
+msgid "Can't open file"
+msgstr ""
+
+#: backends/upower/login1suspendjob.cpp:76
+#: backends/upower/upowersuspendjob.cpp:69
+#, kde-format
+msgid "Unsupported suspend method"
+msgstr "วิธีการพักการทำงานที่ไม่รองรับ"
+
+#: powerdevilcore.cpp:91
+#, kde-format
+msgid ""
+"No valid Power Management backend plugins are available. A new installation "
+"might solve this problem."
+msgstr ""
+"ไม่พบส่วนเสริมโปรแกรมเบื้องหลังการจัดการพลังงานที่ใช้งานได้ คุณอาจแก้ปัญหาด้วยการติดต่อใหม่อีกครั้ง"
+
+#: powerdevilcore.cpp:329
+#, kde-format
+msgid ""
+"The profile \"%1\" has been selected, but it does not exist.\n"
+"Please check your PowerDevil configuration."
+msgstr ""
+"ไม่พบโพรไฟล์ \"%1\" ที่เลือกไว้\n"
+"โปรดตรวจสอบการตั้งค่าของ PowerDevil"
+
+#: powerdevilcore.cpp:393 powerdevilcore.cpp:405
+#, kde-format
+msgid "Activity Manager"
+msgstr ""
+
+#: powerdevilcore.cpp:394
+#, kde-format
+msgid "This activity's policies prevent the system from suspending"
+msgstr ""
+
+#: powerdevilcore.cpp:406
+#, kde-format
+msgid "This activity's policies prevent screen power management"
+msgstr ""
+
+#: powerdevilcore.cpp:438
+#, kde-format
+msgid ""
+"Could not connect to battery interface.\n"
+"Please check your system configuration"
+msgstr ""
+"ไม่สามารถเชื่อมต่อไปยังส่วนติดต่อแบตเตอรี่ได้\n"
+"กรุณาตรวจสอบการตั้งค่าของระบบ"
+
+#: powerdevilcore.cpp:466
+#, fuzzy, kde-format
+#| msgid "Critical battery level"
+msgid "Extra Battery Added"
+msgstr "แบตเตอรี่ใกล้หมด"
+
+#: powerdevilcore.cpp:467 powerdevilcore.cpp:643
+#, fuzzy, kde-format
+#| msgid ""
+#| "The power adaptor has been plugged in. Any pending suspend actions have "
+#| "been canceled."
+msgid "All pending suspend actions have been canceled."
+msgstr "มีการเสียบตัวแปลงไฟ การกระทำต่าง ๆ ที่ถูกพักเครื่องไว้ชั่วคราว จะกลับมาทำงานต่อ"
+
+#: powerdevilcore.cpp:532
+#, kde-format
+msgctxt "%1 is vendor name, %2 is product name"
+msgid "%1 %2"
+msgstr ""
+
+#: powerdevilcore.cpp:541
+#, kde-format
+msgid "Mouse Battery Low (%1% Remaining)"
+msgstr ""
+
+#: powerdevilcore.cpp:543
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in your mouse (\"%1\") is low, and the device may turn itself "
+"off at any time. Please replace or charge the battery as soon as possible."
+msgstr ""
+
+#: powerdevilcore.cpp:548
+#, kde-format
+msgid "Keyboard Battery Low (%1% Remaining)"
+msgstr ""
+
+#: powerdevilcore.cpp:550
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in your keyboard (\"%1\") is low, and the device may turn itself "
+"off at any time. Please replace or charge the battery as soon as possible."
+msgstr ""
+
+#: powerdevilcore.cpp:555
+#, kde-format
+msgctxt "The battery in an external device"
+msgid "Device Battery Low (%1% Remaining)"
+msgstr ""
+
+#: powerdevilcore.cpp:557
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in a connected device (\"%1\") is low, and the device may turn "
+"itself off at any time. Please replace or charge the battery as soon as "
+"possible."
+msgstr ""
+
+#: powerdevilcore.cpp:581
+#, kde-format
+msgid "Battery Low (%1% Remaining)"
+msgstr ""
+
+#: powerdevilcore.cpp:582
+#, kde-format
+msgid ""
+"Your battery is low. If you need to continue using your computer, either "
+"plug in your computer, or shut it down and then change the battery."
+msgstr ""
+
+#: powerdevilcore.cpp:593
+#, kde-format
+msgid "Battery Critical (%1% Remaining)"
+msgstr ""
+
+#: powerdevilcore.cpp:595
+#, fuzzy, kde-format
+#| msgctxt "Interrupts the suspension/shutdown process"
+#| msgid "Cancel"
+msgctxt ""
+"Cancel timeout that will automatically suspend system because of low battery"
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: powerdevilcore.cpp:604
+#, fuzzy, kde-format
+#| msgid ""
+#| "Your battery level is critical, the computer will be halted in 30 seconds."
+msgid ""
+"Your battery level is critical, the computer will be halted in 60 seconds."
+msgstr "ประจุแบตเตอรี่ของคุณใกล้หมดแล้ว เครื่องจะถูกปิด ในอีก 30 วินาที"
+
+#: powerdevilcore.cpp:609
+#, fuzzy, kde-format
+#| msgid ""
+#| "Your battery level is critical, the computer will be hibernated in 30 "
+#| "seconds."
+msgid ""
+"Your battery level is critical, the computer will be hibernated in 60 "
+"seconds."
+msgstr "ประจุแบตเตอรี่ของคุณใกล้หมดแล้ว เครื่องจะจำศีล ในอีก 30 วินาที"
+
+#: powerdevilcore.cpp:614
+#, fuzzy, kde-format
+#| msgid ""
+#| "Your battery level is critical, the computer will be suspended in 30 "
+#| "seconds."
+msgid ""
+"Your battery level is critical, the computer will be suspended in 60 seconds."
+msgstr "ประจุแบตเตอรี่ของคุณใกล้หมดแล้ว จะพักเครื่องในอีก 30 วินาที"
+
+#: powerdevilcore.cpp:619
+#, fuzzy, kde-format
+#| msgid "Your battery level is critical: save your work as soon as possible."
+msgid "Your battery level is critical, save your work as soon as possible."
+msgstr "ประจุแบตเตอรี่ใกล้หมดแล้ว: กรุณารีบบันทึกงานต่าง ๆ ของคุณด่วนที่สุด"
+
+#: powerdevilcore.cpp:642
+#, fuzzy, kde-format
+#| msgid "When AC Adaptor is plugged in"
+msgid "AC Adapter Plugged In"
+msgstr "เมื่อมีการเสียบตัวแปลงไฟเข้ามา"
+
+#: powerdevilcore.cpp:645
+#, kde-format
+msgid "Running on AC power"
+msgstr ""
+
+#: powerdevilcore.cpp:645
+#, kde-format
+msgid "The power adaptor has been plugged in."
+msgstr "เสียบตัวแปลงไฟแล้ว"
+
+#: powerdevilcore.cpp:648
+#, fuzzy, kde-format
+#| msgid "When on battery power"
+msgid "Running on Battery Power"
+msgstr "เมื่อใช้พลังงานจากแบตเตอรี"
+
+#: powerdevilcore.cpp:648
+#, kde-format
+msgid "The power adaptor has been unplugged."
+msgstr "ตัวแปลงไฟถูกถอดออก"
+
+#: powerdevilcore.cpp:654
+#, kde-format
+msgid ""
+"KDE Power Management System could not be initialized. The backend reported "
+"the following error: %1\n"
+"Please check your system configuration"
+msgstr ""
+"ไม่สามารถเริ่มระบบจัดการพลังงานของ KDE ได้ โปรแกรมเบื้องหลังรายงานข้อผิดพลาดนี้%1\n"
+"กรุณาตรวจสอบการตั้งค่าของระบบ"
+
+#: powerdevilcore.cpp:715
+#, kde-format
+msgid "Charge Complete"
+msgstr ""
+
+#: powerdevilcore.cpp:715
+#, kde-format
+msgid "Your battery is now fully charged."
+msgstr ""

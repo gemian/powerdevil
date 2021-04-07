@@ -1,0 +1,152 @@
+# Translation of powerdevilactivitiesconfig.po to Catalan (Valencian)
+# Copyright (C) 2011-2017 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2011, 2012, 2013, 2016, 2017.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: powerdevilactivitiesconfig\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-09-14 06:49+0200\n"
+"PO-Revision-Date: 2017-12-17 23:30+0100\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Josep Ma. Ferrer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "txemaq@gmail.com"
+
+#: activitypage.cpp:76
+#, kde-format
+msgid ""
+"The activity service is running with bare functionalities.\n"
+"Names and icons of the activities might not be available."
+msgstr ""
+"El servei de l'activitat s'està executant amb les funcionalitats mínimes.\n"
+"Els noms i les icones de les activitats podrien no estar disponibles."
+
+#: activitypage.cpp:146
+#, kde-format
+msgid ""
+"The activity service is not running.\n"
+"It is necessary to have the activity manager running to configure activity-"
+"specific power management behavior."
+msgstr ""
+"El servei de l'activitat no s'està executant.\n"
+"Cal tindre el gestor d'activitat executant-se per a configurar el "
+"comportament de gestió d'energia específic d'activitat."
+
+#: activitypage.cpp:241
+#, kde-format
+msgid ""
+"The Power Management Service appears not to be running.\n"
+"This can be solved by starting or scheduling it inside \"Startup and Shutdown"
+"\""
+msgstr ""
+"Sembla que el servei de gestió d'energia no s'està executant.\n"
+"Això es pot solucionar engegant o planificant-lo des d'«Inici i aturada»."
+
+#: activitywidget.cpp:97
+#, kde-format
+msgid "Suspend"
+msgstr "Suspèn"
+
+#: activitywidget.cpp:101
+#, kde-format
+msgid "Hibernate"
+msgstr "Hiberna"
+
+#: activitywidget.cpp:103
+#, kde-format
+msgid "Shut down"
+msgstr "Atura"
+
+#: activitywidget.cpp:107
+#, kde-format
+msgid "PC running on AC power"
+msgstr "El PC està funcionant amb alimentació CA"
+
+#: activitywidget.cpp:108
+#, kde-format
+msgid "PC running on battery power"
+msgstr "El PC està funcionant amb alimentació per bateria"
+
+#: activitywidget.cpp:109
+#, kde-format
+msgid "PC running on low battery"
+msgstr "El PC està funcionant amb alimentació per bateria baixa"
+
+#: activitywidget.cpp:136
+#, kde-format
+msgctxt "This is meant to be: Act like activity %1"
+msgid "Activity \"%1\""
+msgstr "Activitat «%1»"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noSettingsRadio)
+#: activityWidget.ui:19
+#, kde-format
+msgid "Don't use special settings"
+msgstr "No utilitzes cap arranjament especial"
+
+#. i18n: ectx: property (text), widget (QRadioButton, actLikeRadio)
+#: activityWidget.ui:31
+#, kde-format
+msgid "Act like"
+msgstr "Funciona com"
+
+#. i18n: ectx: property (text), widget (QRadioButton, specialBehaviorRadio)
+#: activityWidget.ui:60
+#, kde-format
+msgid "Define a special behavior"
+msgstr "Defineix un comportament especial"
+
+#. i18n: ectx: property (text), widget (QCheckBox, noShutdownScreenBox)
+#: activityWidget.ui:72
+#, kde-format
+msgid "Never shutdown the screen"
+msgstr "No pares mai la pantalla"
+
+#. i18n: ectx: property (text), widget (QCheckBox, noShutdownPCBox)
+#: activityWidget.ui:79
+#, kde-format
+msgid "Never suspend or shutdown the computer"
+msgstr "No suspenguis o pares mai l'ordinador"
+
+#. i18n: ectx: property (text), widget (QCheckBox, alwaysBox)
+#: activityWidget.ui:91
+#, kde-format
+msgid "Always"
+msgstr "Sempre"
+
+#. i18n: ectx: property (text), widget (QLabel, alwaysAfterLabel)
+#: activityWidget.ui:101
+#, kde-format
+msgid "after"
+msgstr "després de"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, alwaysAfterSpin)
+#: activityWidget.ui:108
+#, kde-format
+msgid " min"
+msgstr " min"
+
+#. i18n: ectx: property (text), widget (QRadioButton, separateSettingsRadio)
+#: activityWidget.ui:138
+#, kde-format
+msgid "Use separate settings (advanced users only)"
+msgstr "Usa un arranjament separat (només usuaris avançats)"

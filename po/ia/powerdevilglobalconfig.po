@@ -1,0 +1,147 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# g.sora <g.sora@tiscali.it>, 2010, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-09-14 06:49+0200\n"
+"PO-Revision-Date: 2012-11-21 13:31+0100\n"
+"Last-Translator: Giovanni Sora <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-ia@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Giovanni Sora"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "g.sora@tiscali.it"
+
+#: GeneralPage.cpp:105
+#, kde-format
+msgid "Do nothing"
+msgstr "Nihil Facer"
+
+#: GeneralPage.cpp:107
+#, kde-format
+msgid "Suspend"
+msgstr ""
+
+#: GeneralPage.cpp:110
+#, kde-format
+msgid "Hibernate"
+msgstr "Hibernar"
+
+#: GeneralPage.cpp:112
+#, fuzzy, kde-format
+#| msgid "Shutdown"
+msgid "Shut down"
+msgstr "Clauder Omne (shutdown)"
+
+#: GeneralPage.cpp:209
+#, kde-format
+msgid ""
+"The Power Management Service appears not to be running.\n"
+"This can be solved by starting or scheduling it inside \"Startup and Shutdown"
+"\""
+msgstr ""
+"Le servicio de gestion de energia sembla non esser executante.\n"
+"Isto pote esser resolvite per initiar o planificar lo intra \"Initia e "
+"Claude \""
+
+#. i18n: ectx: property (text), widget (QLabel, batteryLevelsLabel)
+#: generalPage.ui:22
+#, fuzzy, kde-format
+#| msgid "<b>Battery levels</b>"
+msgid "<b>Battery Levels                     </b>"
+msgstr "<b>Nivellos de batteria</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, lowLabel)
+#: generalPage.ui:29
+#, fuzzy, kde-format
+#| msgid "Low battery level"
+msgid "&Low level:"
+msgstr "Nivello de batteria basso"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, lowSpin)
+#: generalPage.ui:45
+#, kde-format
+msgid "Low battery level"
+msgstr "Nivello de batteria basso"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, lowSpin)
+#: generalPage.ui:48
+#, kde-format
+msgid "Battery will be considered low when it reaches this level"
+msgstr ""
+"Batteria essera considerate al nivello de basso quando il continge iste "
+"nivello"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, lowSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, criticalSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, lowPeripheralSpin)
+#: generalPage.ui:51 generalPage.ui:83 generalPage.ui:158
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (text), widget (QLabel, criticalLabel)
+#: generalPage.ui:61
+#, fuzzy, kde-format
+#| msgid "Critical battery level"
+msgid "&Critical level:"
+msgstr "Nivello de batteria critic"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, criticalSpin)
+#: generalPage.ui:77
+#, kde-format
+msgid "Critical battery level"
+msgstr "Nivello de batteria critic"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, criticalSpin)
+#: generalPage.ui:80
+#, kde-format
+msgid "Battery will be considered critical when it reaches this level"
+msgstr ""
+"Batteria essera considerate al nivello critic quando il continge iste nivello"
+
+#. i18n: ectx: property (text), widget (QLabel, BatteryCriticalLabel)
+#: generalPage.ui:93
+#, fuzzy, kde-format
+#| msgid "Battery is at critical level at"
+msgid "A&t critical level:"
+msgstr "Batteria es al nivello critic a"
+
+#. i18n: ectx: property (text), widget (QPushButton, notificationsButton)
+#: generalPage.ui:144
+#, kde-format
+msgid "Configure Notifications..."
+msgstr "Configurar Notificationes ..."
+
+#. i18n: ectx: property (text), widget (QLabel, lowPeripheralLabel)
+#: generalPage.ui:151
+#, kde-format
+msgid "Low level for peripheral devices:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, pausePlayersCheckBox)
+#: generalPage.ui:168
+#, kde-format
+msgid "Enabled"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, pausePlayersLabel)
+#: generalPage.ui:175
+#, kde-format
+msgid "Pause media players when suspending:"
+msgstr ""

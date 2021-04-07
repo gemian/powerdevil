@@ -1,0 +1,146 @@
+# Finnish messages for powerdevilglobalconfig.
+# Copyright © 2010, 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kde-workspace package.
+# Jorma Karvonen <karvonen.jorma@gmail.com>, 2010-2011.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
+# Tommi Nieminen <translator@legisign.org>, 2012, 2017.
+#
+# KDE Finnish translation sprint participants:
+msgid ""
+msgstr ""
+"Project-Id-Version: powerdevilglobalconfig\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-09-14 06:49+0200\n"
+"PO-Revision-Date: 2017-06-08 21:32+0200\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-POT-Import-Date: 2012-12-01 22:22:38+0000\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jorma Karvonen, Lasse Liehu, Tommi Nieminen"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"karvonen.jorma@gmail.com, lasse.liehu@gmail.com, translator@legisign.org"
+
+#: GeneralPage.cpp:105
+#, kde-format
+msgid "Do nothing"
+msgstr "Älä tee mitään"
+
+#: GeneralPage.cpp:107
+#, kde-format
+msgid "Suspend"
+msgstr "Siirry valmiustilaan"
+
+#: GeneralPage.cpp:110
+#, kde-format
+msgid "Hibernate"
+msgstr "Siirry lepotilaan"
+
+#: GeneralPage.cpp:112
+#, kde-format
+msgid "Shut down"
+msgstr "Sammuta"
+
+# Hieman vapaampi suomennos, mutta välttää kehittäjän turhan ”Tämä voidaan ratkaista” -alun.
+#: GeneralPage.cpp:209
+#, kde-format
+msgid ""
+"The Power Management Service appears not to be running.\n"
+"This can be solved by starting or scheduling it inside \"Startup and Shutdown"
+"\""
+msgstr ""
+"Virranhallintapalvelu ei ole käynnissä.\n"
+"Käynnistä tai ajasta se järjestelmäasetusten ”Käynnistys ja sammutus” -"
+"osiosta."
+
+#. i18n: ectx: property (text), widget (QLabel, batteryLevelsLabel)
+#: generalPage.ui:22
+#, kde-format
+msgid "<b>Battery Levels                     </b>"
+msgstr "<b>Varaustasot</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, lowLabel)
+#: generalPage.ui:29
+#, kde-format
+msgid "&Low level:"
+msgstr "Alhainen &varaustaso:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, lowSpin)
+#: generalPage.ui:45
+#, kde-format
+msgid "Low battery level"
+msgstr "Alhainen varaustaso"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, lowSpin)
+#: generalPage.ui:48
+#, kde-format
+msgid "Battery will be considered low when it reaches this level"
+msgstr "Varaus on alhainen, kun se laskee tälle tasolle"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, lowSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, criticalSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, lowPeripheralSpin)
+#: generalPage.ui:51 generalPage.ui:83 generalPage.ui:158
+#, no-c-format, kde-format
+msgid "%"
+msgstr " %"
+
+#. i18n: ectx: property (text), widget (QLabel, criticalLabel)
+#: generalPage.ui:61
+#, kde-format
+msgid "&Critical level:"
+msgstr "K&riittinen varaustaso:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, criticalSpin)
+#: generalPage.ui:77
+#, kde-format
+msgid "Critical battery level"
+msgstr "Kriittinen varaustaso"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, criticalSpin)
+#: generalPage.ui:80
+#, kde-format
+msgid "Battery will be considered critical when it reaches this level"
+msgstr "Varaus on kriittinen, kun se laskee tälle tasolle"
+
+#. i18n: ectx: property (text), widget (QLabel, BatteryCriticalLabel)
+#: generalPage.ui:93
+#, kde-format
+msgid "A&t critical level:"
+msgstr "K&un akku on kriittisen vähissä:"
+
+#. i18n: ectx: property (text), widget (QPushButton, notificationsButton)
+#: generalPage.ui:144
+#, kde-format
+msgid "Configure Notifications..."
+msgstr "Ilmoitusten asetukset…"
+
+#. i18n: ectx: property (text), widget (QLabel, lowPeripheralLabel)
+#: generalPage.ui:151
+#, kde-format
+msgid "Low level for peripheral devices:"
+msgstr "Alhainen varaustaso oheislaitteille:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, pausePlayersCheckBox)
+#: generalPage.ui:168
+#, kde-format
+msgid "Enabled"
+msgstr "Käytössä"
+
+#. i18n: ectx: property (text), widget (QLabel, pausePlayersLabel)
+#: generalPage.ui:175
+#, kde-format
+msgid "Pause media players when suspending:"
+msgstr "Keskeytä mediasoittimet järjestelmää keskeytettäessä:"

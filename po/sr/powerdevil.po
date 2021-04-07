@@ -1,0 +1,469 @@
+# Translation of powerdevil.po into Serbian.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017.
+# Dalibor Djuric <daliborddjuric@gmail.com>, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: powerdevil\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-09-14 06:49+0200\n"
+"PO-Revision-Date: 2017-03-19 22:40+0100\n"
+"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Associated-UI-Catalogs: powerdevilprofilesconfig kdelibs4\n"
+"X-Environment: kde\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Часлав Илић"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "caslav.ilic@gmx.net"
+
+#: actions/bundled/brightnesscontrol.cpp:52
+#: actions/bundled/handlebuttonevents.cpp:57
+#: actions/bundled/keyboardbrightnesscontrol.cpp:57
+#, kde-format
+msgctxt "Name for powerdevil shortcuts category"
+msgid "Power Management"
+msgstr "Управљање напајањем"
+
+#: actions/bundled/brightnesscontrol.cpp:55
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Screen Brightness"
+msgstr "Повећај осветљај екрана"
+
+#: actions/bundled/brightnesscontrol.cpp:60
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Screen Brightness"
+msgstr "Смањи осветљај екрана"
+
+#: actions/bundled/brightnesscontrolconfig.cpp:71
+#, kde-format
+msgctxt "Brightness level, label for the slider"
+msgid "Level"
+msgstr "Ниво"
+
+#: actions/bundled/dimdisplayconfig.cpp:64
+#: actions/bundled/runscriptconfig.cpp:83
+#: actions/bundled/suspendsessionconfig.cpp:79
+#: actions/dpms/powerdevildpmsactionconfig.cpp:60
+#, kde-format
+msgid " min"
+msgstr " мин."
+
+# >> @item:inlistbox
+#: actions/bundled/dimdisplayconfig.cpp:74
+#: actions/bundled/runscriptconfig.cpp:86
+#: actions/bundled/runscriptconfig.cpp:107
+#: actions/bundled/suspendsessionconfig.cpp:100
+#, kde-format
+msgid "After"
+msgstr "после"
+
+#: actions/bundled/handlebuttonevents.cpp:62
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Suspend"
+msgstr "Суспендуј"
+
+#: actions/bundled/handlebuttonevents.cpp:67
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Hibernate"
+msgstr "У хибернацију"
+
+#: actions/bundled/handlebuttonevents.cpp:72
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Power Off"
+msgstr "Угаси"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:87
+#, kde-format
+msgctxt "Execute action on lid close even when external monitor is connected"
+msgid "Even when an external monitor is connected"
+msgstr "Чак и кад је прикључен спољашњи монитор"
+
+# >> @item:inlistbox
+#: actions/bundled/handlebuttoneventsconfig.cpp:97
+#, kde-format
+msgid "Do nothing"
+msgstr "не ради ништа"
+
+# >> @item:inlistbox
+#: actions/bundled/handlebuttoneventsconfig.cpp:99
+#: actions/bundled/suspendsessionconfig.cpp:82
+#, kde-format
+msgid "Suspend"
+msgstr "суспендуј"
+
+# >> @item:inlistbox
+#: actions/bundled/handlebuttoneventsconfig.cpp:102
+#: actions/bundled/suspendsessionconfig.cpp:85
+#, kde-format
+msgid "Hibernate"
+msgstr "у хибернацију"
+
+# >> @item:inlistbox
+#: actions/bundled/handlebuttoneventsconfig.cpp:105
+#: actions/bundled/suspendsessionconfig.cpp:88
+#, kde-format
+msgid "Hybrid suspend"
+msgstr "у хибридну хибернацију"
+
+# >> @item:inlistbox
+#: actions/bundled/handlebuttoneventsconfig.cpp:107
+#: actions/bundled/suspendsessionconfig.cpp:90
+#, kde-format
+msgid "Shut down"
+msgstr "угаси"
+
+# >> @item:inlistbox
+#: actions/bundled/handlebuttoneventsconfig.cpp:108
+#: actions/bundled/suspendsessionconfig.cpp:91
+#, kde-format
+msgid "Lock screen"
+msgstr "закључај екран"
+
+# >> @item:inlistbox
+#: actions/bundled/handlebuttoneventsconfig.cpp:110
+#, kde-format
+msgid "Prompt log out dialog"
+msgstr "покажи одјавни дијалог"
+
+# >> @item:inlistbox
+#: actions/bundled/handlebuttoneventsconfig.cpp:112
+#, kde-format
+msgid "Turn off screen"
+msgstr "угаси екран"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:138
+#, kde-format
+msgid "When laptop lid closed"
+msgstr "Када се спусти поклопац"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:149
+#, kde-format
+msgid "When power button pressed"
+msgstr "Када се притисне дугме напајања"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:61
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Keyboard Brightness"
+msgstr "Повећај осветљај тастатуре"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:66
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Keyboard Brightness"
+msgstr "Смањи осветљај тастатуре"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:71
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Toggle Keyboard Backlight"
+msgstr "Обрни осветљење тастатуре"
+
+#: actions/bundled/keyboardbrightnesscontrolconfig.cpp:71
+#, kde-format
+msgctxt "@label:slider Brightness level"
+msgid "Level"
+msgstr "Ниво"
+
+#: actions/bundled/runscriptconfig.cpp:72
+#, kde-format
+msgid "Script"
+msgstr "Скрипта"
+
+# >> @item:inlistbox
+#: actions/bundled/runscriptconfig.cpp:84
+#, kde-format
+msgid "On Profile Load"
+msgstr "при учитавању профила"
+
+# >> @item:inlistbox
+#: actions/bundled/runscriptconfig.cpp:85
+#, kde-format
+msgid "On Profile Unload"
+msgstr "при укидању профила"
+
+#: actions/bundled/runscriptconfig.cpp:96
+#, kde-format
+msgid "Run script"
+msgstr "Изврши скрипту"
+
+# >> @item:inlistbox
+#: actions/bundled/wirelesspowersavingconfig.cpp:75
+#: actions/bundled/wirelesspowersavingconfig.cpp:80
+#: actions/bundled/wirelesspowersavingconfig.cpp:85
+#, kde-format
+msgid "Leave unchanged"
+msgstr "остави како је"
+
+# >> @item:inlistbox
+#: actions/bundled/wirelesspowersavingconfig.cpp:76
+#: actions/bundled/wirelesspowersavingconfig.cpp:81
+#: actions/bundled/wirelesspowersavingconfig.cpp:86
+#, kde-format
+msgid "Turn off"
+msgstr "искључи"
+
+# >> @item:inlistbox
+#: actions/bundled/wirelesspowersavingconfig.cpp:77
+#: actions/bundled/wirelesspowersavingconfig.cpp:82
+#: actions/bundled/wirelesspowersavingconfig.cpp:87
+#, kde-format
+msgid "Turn on"
+msgstr "укључи"
+
+# >> @item
+#: actions/bundled/wirelesspowersavingconfig.cpp:110
+#, kde-format
+msgid "Wi-Fi"
+msgstr "бежична"
+
+# >> @item
+#: actions/bundled/wirelesspowersavingconfig.cpp:111
+#, kde-format
+msgid "Mobile broadband"
+msgstr "мобилна широкопојасна"
+
+# >> @item
+#: actions/bundled/wirelesspowersavingconfig.cpp:112
+#, kde-format
+msgid "Bluetooth"
+msgstr "блутут"
+
+#: actions/dpms/powerdevildpmsactionconfig.cpp:61
+#, kde-format
+msgid "Switch off after"
+msgstr "Угаси после"
+
+#: backends/upower/backlighthelper.cpp:204
+#, kde-format
+msgid "Can't open file"
+msgstr "Не могу да отворим фајл"
+
+#: backends/upower/login1suspendjob.cpp:76
+#: backends/upower/upowersuspendjob.cpp:69
+#, kde-format
+msgid "Unsupported suspend method"
+msgstr "Неподржан метод суспендовања"
+
+#: powerdevilcore.cpp:91
+#, kde-format
+msgid ""
+"No valid Power Management backend plugins are available. A new installation "
+"might solve this problem."
+msgstr ""
+"Нема ниједног погодног позадинског прикључка за управљање напајањем. Можда "
+"би поновно инсталирање решило проблем."
+
+#: powerdevilcore.cpp:329
+#, kde-format
+msgid ""
+"The profile \"%1\" has been selected, but it does not exist.\n"
+"Please check your PowerDevil configuration."
+msgstr ""
+"Изабрани профил „%1“ не постоји.\n"
+"Проверите поставу Струјног ђавола."
+
+#: powerdevilcore.cpp:393 powerdevilcore.cpp:405
+#, kde-format
+msgid "Activity Manager"
+msgstr "Менаџер активности"
+
+#: powerdevilcore.cpp:394
+#, kde-format
+msgid "This activity's policies prevent the system from suspending"
+msgstr "Смернице ове активности не допуштају суспендовање система"
+
+#: powerdevilcore.cpp:406
+#, kde-format
+msgid "This activity's policies prevent screen power management"
+msgstr "Смернице ове активности не допуштају управљање напајањем екрана"
+
+#: powerdevilcore.cpp:438
+#, kde-format
+msgid ""
+"Could not connect to battery interface.\n"
+"Please check your system configuration"
+msgstr ""
+"Не могу да се повежем са сучељем батерије.\n"
+"Проверите поставу система."
+
+#: powerdevilcore.cpp:466
+#, kde-format
+msgid "Extra Battery Added"
+msgstr "Додата допунска батерија"
+
+#: powerdevilcore.cpp:467 powerdevilcore.cpp:643
+#, kde-format
+msgid "All pending suspend actions have been canceled."
+msgstr "Отказане су све наступајуће радње суспендовања."
+
+#: powerdevilcore.cpp:532
+#, kde-format
+msgctxt "%1 is vendor name, %2 is product name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: powerdevilcore.cpp:541
+#, kde-format
+msgid "Mouse Battery Low (%1% Remaining)"
+msgstr "Батерија миша при крају (остало %1%)"
+
+#: powerdevilcore.cpp:543
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in your mouse (\"%1\") is low, and the device may turn itself "
+"off at any time. Please replace or charge the battery as soon as possible."
+msgstr ""
+"Батерија у мишу („%1“) при крају је, те се уређај сваког часа може сам "
+"угасити. Што пре замените или допуните батерију."
+
+#: powerdevilcore.cpp:548
+#, kde-format
+msgid "Keyboard Battery Low (%1% Remaining)"
+msgstr "Батерија тастатуре при крају (остало %1%)"
+
+#: powerdevilcore.cpp:550
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in your keyboard (\"%1\") is low, and the device may turn itself "
+"off at any time. Please replace or charge the battery as soon as possible."
+msgstr ""
+"Батерија у тастатури („%1“) при крају је, те се уређај сваког часа може сам "
+"угасити. Што пре замените или допуните батерију."
+
+#: powerdevilcore.cpp:555
+#, kde-format
+msgctxt "The battery in an external device"
+msgid "Device Battery Low (%1% Remaining)"
+msgstr "Батерија у уређају при крају (остало %1%)"
+
+#: powerdevilcore.cpp:557
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in a connected device (\"%1\") is low, and the device may turn "
+"itself off at any time. Please replace or charge the battery as soon as "
+"possible."
+msgstr ""
+"Батерија у повезаном уређају („%1“) при крају је, те се уређај сваког часа "
+"може сам угасити. Што пре замените или допуните батерију."
+
+#: powerdevilcore.cpp:581
+#, kde-format
+msgid "Battery Low (%1% Remaining)"
+msgstr "Батерија при крају (остало %1%)"
+
+#: powerdevilcore.cpp:582
+#, kde-format
+msgid ""
+"Your battery is low. If you need to continue using your computer, either "
+"plug in your computer, or shut it down and then change the battery."
+msgstr ""
+"Батерија је при крају. Ако желите да наставите са радом, или утакните "
+"рачунар у струју или га искључите и промените батерију."
+
+#: powerdevilcore.cpp:593
+#, kde-format
+msgid "Battery Critical (%1% Remaining)"
+msgstr "Батерија критична (остало %1%)"
+
+#: powerdevilcore.cpp:595
+#, kde-format
+msgctxt ""
+"Cancel timeout that will automatically suspend system because of low battery"
+msgid "Cancel"
+msgstr "Одустани"
+
+#: powerdevilcore.cpp:604
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be halted in 60 seconds."
+msgstr "Батерија је на критичном нивоу, рачунар ће бити угашен за 60 секунди."
+
+#: powerdevilcore.cpp:609
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be hibernated in 60 "
+"seconds."
+msgstr ""
+"Батерија је на критичном нивоу, рачунар ће бити послат у хибернацију за 60 "
+"секунди."
+
+#: powerdevilcore.cpp:614
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be suspended in 60 seconds."
+msgstr ""
+"Батерија је на критичном нивоу, рачунар ће бити суспендован за 60 секунди."
+
+#: powerdevilcore.cpp:619
+#, kde-format
+msgid "Your battery level is critical, save your work as soon as possible."
+msgstr "Батерија је на критичном нивоу, сачувајте свој рад што је пре могуће."
+
+#: powerdevilcore.cpp:642
+#, kde-format
+msgid "AC Adapter Plugged In"
+msgstr "Струјни адаптер утакнут"
+
+#: powerdevilcore.cpp:645
+#, kde-format
+msgid "Running on AC power"
+msgstr "На зидном напајању"
+
+#: powerdevilcore.cpp:645
+#, kde-format
+msgid "The power adaptor has been plugged in."
+msgstr "Струјни адаптер је утакнут."
+
+#: powerdevilcore.cpp:648
+#, kde-format
+msgid "Running on Battery Power"
+msgstr "На батеријском напајању"
+
+#: powerdevilcore.cpp:648
+#, kde-format
+msgid "The power adaptor has been unplugged."
+msgstr "Струјни адаптер је извучен."
+
+#: powerdevilcore.cpp:654
+#, kde-format
+msgid ""
+"KDE Power Management System could not be initialized. The backend reported "
+"the following error: %1\n"
+"Please check your system configuration"
+msgstr ""
+"КДЕ‑ов систем за управљање напајањем не може да се припреми. Позадина јавља "
+"следећу грешку: %1\n"
+"Проверите поставу система."
+
+#: powerdevilcore.cpp:715
+#, kde-format
+msgid "Charge Complete"
+msgstr "Пуњење довршено"
+
+#: powerdevilcore.cpp:715
+#, kde-format
+msgid "Your battery is now fully charged."
+msgstr "Батерија је сада потпуно напуњена."

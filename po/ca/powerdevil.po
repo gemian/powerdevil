@@ -1,0 +1,460 @@
+# Translation of powerdevil.po to Catalan
+# Copyright (C) 2008-2017 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016, 2017.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: powerdevil\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-09-14 06:49+0200\n"
+"PO-Revision-Date: 2017-03-12 15:28+0100\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Josep Ma. Ferrer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "txemaq@gmail.com"
+
+#: actions/bundled/brightnesscontrol.cpp:52
+#: actions/bundled/handlebuttonevents.cpp:57
+#: actions/bundled/keyboardbrightnesscontrol.cpp:57
+#, kde-format
+msgctxt "Name for powerdevil shortcuts category"
+msgid "Power Management"
+msgstr "Gestió d'energia"
+
+#: actions/bundled/brightnesscontrol.cpp:55
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Screen Brightness"
+msgstr "Augmenta la lluminositat de la pantalla"
+
+#: actions/bundled/brightnesscontrol.cpp:60
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Screen Brightness"
+msgstr "Disminueix la lluminositat de la pantalla"
+
+#: actions/bundled/brightnesscontrolconfig.cpp:71
+#, kde-format
+msgctxt "Brightness level, label for the slider"
+msgid "Level"
+msgstr "Nivell"
+
+#: actions/bundled/dimdisplayconfig.cpp:64
+#: actions/bundled/runscriptconfig.cpp:83
+#: actions/bundled/suspendsessionconfig.cpp:79
+#: actions/dpms/powerdevildpmsactionconfig.cpp:60
+#, kde-format
+msgid " min"
+msgstr " min"
+
+#: actions/bundled/dimdisplayconfig.cpp:74
+#: actions/bundled/runscriptconfig.cpp:86
+#: actions/bundled/runscriptconfig.cpp:107
+#: actions/bundled/suspendsessionconfig.cpp:100
+#, kde-format
+msgid "After"
+msgstr "Després de"
+
+#: actions/bundled/handlebuttonevents.cpp:62
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Suspend"
+msgstr "Suspèn"
+
+#: actions/bundled/handlebuttonevents.cpp:67
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Hibernate"
+msgstr "Hiberna"
+
+#: actions/bundled/handlebuttonevents.cpp:72
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Power Off"
+msgstr "Apaga"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:87
+#, kde-format
+msgctxt "Execute action on lid close even when external monitor is connected"
+msgid "Even when an external monitor is connected"
+msgstr "Inclús quan hi ha un monitor extern connectat"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:97
+#, kde-format
+msgid "Do nothing"
+msgstr "No facis res"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:99
+#: actions/bundled/suspendsessionconfig.cpp:82
+#, kde-format
+msgid "Suspend"
+msgstr "Suspèn"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:102
+#: actions/bundled/suspendsessionconfig.cpp:85
+#, kde-format
+msgid "Hibernate"
+msgstr "Hiberna"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:105
+#: actions/bundled/suspendsessionconfig.cpp:88
+#, kde-format
+msgid "Hybrid suspend"
+msgstr "Suspensió híbrida"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:107
+#: actions/bundled/suspendsessionconfig.cpp:90
+#, kde-format
+msgid "Shut down"
+msgstr "Atura"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:108
+#: actions/bundled/suspendsessionconfig.cpp:91
+#, kde-format
+msgid "Lock screen"
+msgstr "Bloqueja la pantalla"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:110
+#, kde-format
+msgid "Prompt log out dialog"
+msgstr "Mostra el diàleg de sortida"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:112
+#, kde-format
+msgid "Turn off screen"
+msgstr "Apaga la pantalla"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:138
+#, kde-format
+msgid "When laptop lid closed"
+msgstr "Quan es tanqui la tapa del portàtil"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:149
+#, kde-format
+msgid "When power button pressed"
+msgstr "Quan es premi el botó d'encesa/apagat"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:61
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Keyboard Brightness"
+msgstr "Augmenta la brillantor del teclat"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:66
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Keyboard Brightness"
+msgstr "Redueix la brillantor del teclat"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:71
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Toggle Keyboard Backlight"
+msgstr "Commuta la retroil·luminació del teclat"
+
+#: actions/bundled/keyboardbrightnesscontrolconfig.cpp:71
+#, kde-format
+msgctxt "@label:slider Brightness level"
+msgid "Level"
+msgstr "Nivell"
+
+#: actions/bundled/runscriptconfig.cpp:72
+#, kde-format
+msgid "Script"
+msgstr "Script"
+
+#: actions/bundled/runscriptconfig.cpp:84
+#, kde-format
+msgid "On Profile Load"
+msgstr "En carregar un perfil"
+
+#: actions/bundled/runscriptconfig.cpp:85
+#, kde-format
+msgid "On Profile Unload"
+msgstr "En descarregar un perfil"
+
+#: actions/bundled/runscriptconfig.cpp:96
+#, kde-format
+msgid "Run script"
+msgstr "Executa un script"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:75
+#: actions/bundled/wirelesspowersavingconfig.cpp:80
+#: actions/bundled/wirelesspowersavingconfig.cpp:85
+#, kde-format
+msgid "Leave unchanged"
+msgstr "Deixa sense canviar"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:76
+#: actions/bundled/wirelesspowersavingconfig.cpp:81
+#: actions/bundled/wirelesspowersavingconfig.cpp:86
+#, kde-format
+msgid "Turn off"
+msgstr "Apaga"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:77
+#: actions/bundled/wirelesspowersavingconfig.cpp:82
+#: actions/bundled/wirelesspowersavingconfig.cpp:87
+#, kde-format
+msgid "Turn on"
+msgstr "Engega"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:110
+#, kde-format
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:111
+#, kde-format
+msgid "Mobile broadband"
+msgstr "Banda ampla per mòbil"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:112
+#, kde-format
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: actions/dpms/powerdevildpmsactionconfig.cpp:61
+#, kde-format
+msgid "Switch off after"
+msgstr "Apaga després de"
+
+#: backends/upower/backlighthelper.cpp:204
+#, kde-format
+msgid "Can't open file"
+msgstr "No s'ha pogut obrir el fitxer"
+
+#: backends/upower/login1suspendjob.cpp:76
+#: backends/upower/upowersuspendjob.cpp:69
+#, kde-format
+msgid "Unsupported suspend method"
+msgstr "Mètode de suspensió no admès"
+
+#: powerdevilcore.cpp:91
+#, kde-format
+msgid ""
+"No valid Power Management backend plugins are available. A new installation "
+"might solve this problem."
+msgstr ""
+"No hi ha disponible cap connector vàlid de dorsal de gestió d'energia. Es "
+"podria solucionar aquest problema amb una nova instal·lació."
+
+#: powerdevilcore.cpp:329
+#, kde-format
+msgid ""
+"The profile \"%1\" has been selected, but it does not exist.\n"
+"Please check your PowerDevil configuration."
+msgstr ""
+"S'ha seleccionat el perfil «%1», però no existeix.\n"
+"Comproveu la configuració del PowerDevil."
+
+#: powerdevilcore.cpp:393 powerdevilcore.cpp:405
+#, kde-format
+msgid "Activity Manager"
+msgstr "Gestor d'activitats"
+
+#: powerdevilcore.cpp:394
+#, kde-format
+msgid "This activity's policies prevent the system from suspending"
+msgstr "Aquestes polítiques d'activitats eviten la suspensió del sistema"
+
+#: powerdevilcore.cpp:406
+#, kde-format
+msgid "This activity's policies prevent screen power management"
+msgstr ""
+"Aquestes polítiques d'activitats eviten la gestió d'energia de la pantalla"
+
+#: powerdevilcore.cpp:438
+#, kde-format
+msgid ""
+"Could not connect to battery interface.\n"
+"Please check your system configuration"
+msgstr ""
+"No s'ha pogut connectar a la interfície de la bateria.\n"
+"Comproveu la configuració del sistema"
+
+#: powerdevilcore.cpp:466
+#, kde-format
+msgid "Extra Battery Added"
+msgstr "S'ha afegit una bateria extra"
+
+#: powerdevilcore.cpp:467 powerdevilcore.cpp:643
+#, kde-format
+msgid "All pending suspend actions have been canceled."
+msgstr "S'han cancel·lat totes les accions de suspensió pendents."
+
+#: powerdevilcore.cpp:532
+#, kde-format
+msgctxt "%1 is vendor name, %2 is product name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: powerdevilcore.cpp:541
+#, kde-format
+msgid "Mouse Battery Low (%1% Remaining)"
+msgstr "Bateria baixa del ratolí (resta %1%)"
+
+#: powerdevilcore.cpp:543
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in your mouse (\"%1\") is low, and the device may turn itself "
+"off at any time. Please replace or charge the battery as soon as possible."
+msgstr ""
+"La bateria del ratolí («%1») és baixa, i el dispositiu es pot desconnectar "
+"en qualsevol moment. Substituïu o carregueu la bateria tan aviat com sigui "
+"possible."
+
+#: powerdevilcore.cpp:548
+#, kde-format
+msgid "Keyboard Battery Low (%1% Remaining)"
+msgstr "Bateria baixa del teclat (resta %1%)"
+
+#: powerdevilcore.cpp:550
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in your keyboard (\"%1\") is low, and the device may turn itself "
+"off at any time. Please replace or charge the battery as soon as possible."
+msgstr ""
+"La bateria del teclat («%1») és baixa, i el dispositiu es pot desconnectar "
+"en qualsevol moment. Substituïu o carregueu la bateria tan aviat com sigui "
+"possible."
+
+#: powerdevilcore.cpp:555
+#, kde-format
+msgctxt "The battery in an external device"
+msgid "Device Battery Low (%1% Remaining)"
+msgstr "Bateria baixa del dispositiu (resta %1%)"
+
+#: powerdevilcore.cpp:557
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in a connected device (\"%1\") is low, and the device may turn "
+"itself off at any time. Please replace or charge the battery as soon as "
+"possible."
+msgstr ""
+"La bateria d'un dispositiu connectat («%1») és baixa, i el dispositiu es pot "
+"desconnectar en qualsevol moment. Substituïu o carregueu la bateria tan "
+"aviat com sigui possible."
+
+#: powerdevilcore.cpp:581
+#, kde-format
+msgid "Battery Low (%1% Remaining)"
+msgstr "Bateria baixa (resta %1%)"
+
+#: powerdevilcore.cpp:582
+#, kde-format
+msgid ""
+"Your battery is low. If you need to continue using your computer, either "
+"plug in your computer, or shut it down and then change the battery."
+msgstr ""
+"La bateria és baixa. Si us cal continuar utilitzant l'ordinador, endolleu-lo "
+"o apagueu-lo i després carregueu la bateria."
+
+#: powerdevilcore.cpp:593
+#, kde-format
+msgid "Battery Critical (%1% Remaining)"
+msgstr "Bateria crítica (resta %1%)"
+
+#: powerdevilcore.cpp:595
+#, kde-format
+msgctxt ""
+"Cancel timeout that will automatically suspend system because of low battery"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: powerdevilcore.cpp:604
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be halted in 60 seconds."
+msgstr ""
+"La bateria ha arribat al nivell crític, l'ordinador s'aturarà en 60 segons."
+
+#: powerdevilcore.cpp:609
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be hibernated in 60 "
+"seconds."
+msgstr ""
+"La bateria ha arribat al nivell crític, l'ordinador s'hibernarà en 60 segons."
+
+#: powerdevilcore.cpp:614
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be suspended in 60 seconds."
+msgstr ""
+"La bateria ha arribat al nivell crític, l'ordinador se suspendrà en 60 "
+"segons."
+
+#: powerdevilcore.cpp:619
+#, kde-format
+msgid "Your battery level is critical, save your work as soon as possible."
+msgstr ""
+"La bateria ha arribat al nivell crític: deseu la feina tan aviat com sigui "
+"possible."
+
+#: powerdevilcore.cpp:642
+#, kde-format
+msgid "AC Adapter Plugged In"
+msgstr "Adaptador de CA endollat"
+
+#: powerdevilcore.cpp:645
+#, kde-format
+msgid "Running on AC power"
+msgstr "Funcionant amb alimentació CA"
+
+#: powerdevilcore.cpp:645
+#, kde-format
+msgid "The power adaptor has been plugged in."
+msgstr "L'adaptador de corrent s'ha endollat."
+
+#: powerdevilcore.cpp:648
+#, kde-format
+msgid "Running on Battery Power"
+msgstr "Funcionant amb alimentació per bateria"
+
+#: powerdevilcore.cpp:648
+#, kde-format
+msgid "The power adaptor has been unplugged."
+msgstr "L'adaptador de corrent s'ha desendollat."
+
+#: powerdevilcore.cpp:654
+#, kde-format
+msgid ""
+"KDE Power Management System could not be initialized. The backend reported "
+"the following error: %1\n"
+"Please check your system configuration"
+msgstr ""
+"No s'ha pogut inicialitzar el sistema de gestió d'energia del KDE. El dorsal "
+"ha informat de l'error següent: %1\n"
+"Comproveu la configuració del sistema"
+
+#: powerdevilcore.cpp:715
+#, kde-format
+msgid "Charge Complete"
+msgstr "Càrrega completada"
+
+#: powerdevilcore.cpp:715
+#, kde-format
+msgid "Your battery is now fully charged."
+msgstr "La bateria ara està totalment carregada."

@@ -86,7 +86,7 @@ feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAG
 find_package(KF5I18n CONFIG REQUIRED)
 ki18n_install(po)
 
-  find_package(KF5DocTools CONFIG)
-  if(KF5DocTools_FOUND)
+find_package(KF5DocTools CONFIG)
+if(KF5DocTools_FOUND)
     kdoctools_install(po)
-  endif()
+endif()

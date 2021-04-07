@@ -1,0 +1,444 @@
+# translation of powerdevil.po to Slovak
+# Roman Paholík <wizzardsk@gmail.com>, 2014, 2015, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: powerdevil\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-09-14 06:49+0200\n"
+"PO-Revision-Date: 2017-05-08 17:16+0100\n"
+"Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roman Paholík"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "wizzardsk@gmail.com"
+
+#: actions/bundled/brightnesscontrol.cpp:52
+#: actions/bundled/handlebuttonevents.cpp:57
+#: actions/bundled/keyboardbrightnesscontrol.cpp:57
+#, kde-format
+msgctxt "Name for powerdevil shortcuts category"
+msgid "Power Management"
+msgstr "Správa napájania"
+
+#: actions/bundled/brightnesscontrol.cpp:55
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Screen Brightness"
+msgstr "Zvýšiť jas obrazovky"
+
+#: actions/bundled/brightnesscontrol.cpp:60
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Screen Brightness"
+msgstr "Znížiť jas obrazovky"
+
+#: actions/bundled/brightnesscontrolconfig.cpp:71
+#, kde-format
+msgctxt "Brightness level, label for the slider"
+msgid "Level"
+msgstr "Úroveň"
+
+#: actions/bundled/dimdisplayconfig.cpp:64
+#: actions/bundled/runscriptconfig.cpp:83
+#: actions/bundled/suspendsessionconfig.cpp:79
+#: actions/dpms/powerdevildpmsactionconfig.cpp:60
+#, kde-format
+msgid " min"
+msgstr " min"
+
+#: actions/bundled/dimdisplayconfig.cpp:74
+#: actions/bundled/runscriptconfig.cpp:86
+#: actions/bundled/runscriptconfig.cpp:107
+#: actions/bundled/suspendsessionconfig.cpp:100
+#, kde-format
+msgid "After"
+msgstr "Po"
+
+#: actions/bundled/handlebuttonevents.cpp:62
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Suspend"
+msgstr "Uspať"
+
+#: actions/bundled/handlebuttonevents.cpp:67
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Hibernate"
+msgstr "Hibernovať"
+
+#: actions/bundled/handlebuttonevents.cpp:72
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Power Off"
+msgstr "Vypnúť"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:87
+#, kde-format
+msgctxt "Execute action on lid close even when external monitor is connected"
+msgid "Even when an external monitor is connected"
+msgstr "Aj vtedy, ak je pripojený externý monitor"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:97
+#, kde-format
+msgid "Do nothing"
+msgstr "Nerobiť nič"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:99
+#: actions/bundled/suspendsessionconfig.cpp:82
+#, kde-format
+msgid "Suspend"
+msgstr "Uspať"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:102
+#: actions/bundled/suspendsessionconfig.cpp:85
+#, kde-format
+msgid "Hibernate"
+msgstr "Hibernovať"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:105
+#: actions/bundled/suspendsessionconfig.cpp:88
+#, kde-format
+msgid "Hybrid suspend"
+msgstr "Hybridný spánok"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:107
+#: actions/bundled/suspendsessionconfig.cpp:90
+#, kde-format
+msgid "Shut down"
+msgstr "Vypnúť"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:108
+#: actions/bundled/suspendsessionconfig.cpp:91
+#, kde-format
+msgid "Lock screen"
+msgstr "Uzamknúť obrazovku"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:110
+#, kde-format
+msgid "Prompt log out dialog"
+msgstr "Vyvolať dialóg odhlásenia"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:112
+#, kde-format
+msgid "Turn off screen"
+msgstr "Vypnúť monitor"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:138
+#, kde-format
+msgid "When laptop lid closed"
+msgstr "Ak je zatvorený kryt notebooku"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:149
+#, kde-format
+msgid "When power button pressed"
+msgstr "Ak je stlačené tlačidlo napájania"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:61
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Keyboard Brightness"
+msgstr "Zvýšiť jas klávesnice"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:66
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Keyboard Brightness"
+msgstr "Znížiť jas klávesnice"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:71
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Toggle Keyboard Backlight"
+msgstr "Prepnúť podsvietenie klávesnice"
+
+#: actions/bundled/keyboardbrightnesscontrolconfig.cpp:71
+#, kde-format
+msgctxt "@label:slider Brightness level"
+msgid "Level"
+msgstr "Úroveň"
+
+#: actions/bundled/runscriptconfig.cpp:72
+#, kde-format
+msgid "Script"
+msgstr "Skript"
+
+#: actions/bundled/runscriptconfig.cpp:84
+#, kde-format
+msgid "On Profile Load"
+msgstr "Pri načítaní profilu"
+
+#: actions/bundled/runscriptconfig.cpp:85
+#, kde-format
+msgid "On Profile Unload"
+msgstr "Pri uvoľnení profilu"
+
+#: actions/bundled/runscriptconfig.cpp:96
+#, kde-format
+msgid "Run script"
+msgstr "Spustiť skript"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:75
+#: actions/bundled/wirelesspowersavingconfig.cpp:80
+#: actions/bundled/wirelesspowersavingconfig.cpp:85
+#, kde-format
+msgid "Leave unchanged"
+msgstr "Ponechať nezmenené"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:76
+#: actions/bundled/wirelesspowersavingconfig.cpp:81
+#: actions/bundled/wirelesspowersavingconfig.cpp:86
+#, kde-format
+msgid "Turn off"
+msgstr "Vypnúť"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:77
+#: actions/bundled/wirelesspowersavingconfig.cpp:82
+#: actions/bundled/wirelesspowersavingconfig.cpp:87
+#, kde-format
+msgid "Turn on"
+msgstr "Zapnúť"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:110
+#, kde-format
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:111
+#, kde-format
+msgid "Mobile broadband"
+msgstr "Mobilné pripojenie"
+
+#: actions/bundled/wirelesspowersavingconfig.cpp:112
+#, kde-format
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: actions/dpms/powerdevildpmsactionconfig.cpp:61
+#, kde-format
+msgid "Switch off after"
+msgstr "Vypnúť po"
+
+#: backends/upower/backlighthelper.cpp:204
+#, kde-format
+msgid "Can't open file"
+msgstr "Nemôžem otvoriť súbor"
+
+#: backends/upower/login1suspendjob.cpp:76
+#: backends/upower/upowersuspendjob.cpp:69
+#, kde-format
+msgid "Unsupported suspend method"
+msgstr "Nepodporovaná metóda uspania"
+
+#: powerdevilcore.cpp:91
+#, kde-format
+msgid ""
+"No valid Power Management backend plugins are available. A new installation "
+"might solve this problem."
+msgstr ""
+"Nie sú dostupné žiadne platné moduly backendu pre správu napájania. Nová "
+"inštalácia môže vyriešiť tento problém."
+
+#: powerdevilcore.cpp:329
+#, kde-format
+msgid ""
+"The profile \"%1\" has been selected, but it does not exist.\n"
+"Please check your PowerDevil configuration."
+msgstr ""
+"Bol vybraný profil \"%1\", ktorý ale neexistuje.\n"
+"Skontrolujte nastavenie PowerDevil."
+
+#: powerdevilcore.cpp:393 powerdevilcore.cpp:405
+#, kde-format
+msgid "Activity Manager"
+msgstr "Správca aktivít"
+
+#: powerdevilcore.cpp:394
+#, kde-format
+msgid "This activity's policies prevent the system from suspending"
+msgstr "Tieto politiky aktivít nepovoľujú zastavenie systému"
+
+#: powerdevilcore.cpp:406
+#, kde-format
+msgid "This activity's policies prevent screen power management"
+msgstr "Tieto politiky aktivít nepovoľujú správu napájania obrazovky"
+
+#: powerdevilcore.cpp:438
+#, kde-format
+msgid ""
+"Could not connect to battery interface.\n"
+"Please check your system configuration"
+msgstr ""
+"Nepodarilo sa pripojiť k rozhraniu batérie.\n"
+"Skontrolujte nastavenie systému"
+
+#: powerdevilcore.cpp:466
+#, kde-format
+msgid "Extra Battery Added"
+msgstr "Pridaná dodatočná batéria"
+
+#: powerdevilcore.cpp:467 powerdevilcore.cpp:643
+#, kde-format
+msgid "All pending suspend actions have been canceled."
+msgstr "Všetky ostávajúce akcie na uspanie boli zrušené."
+
+#: powerdevilcore.cpp:532
+#, kde-format
+msgctxt "%1 is vendor name, %2 is product name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: powerdevilcore.cpp:541
+#, kde-format
+msgid "Mouse Battery Low (%1% Remaining)"
+msgstr "Nízka úroveň batérie myši (%1% zostáva)"
+
+#: powerdevilcore.cpp:543
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in your mouse (\"%1\") is low, and the device may turn itself "
+"off at any time. Please replace or charge the battery as soon as possible."
+msgstr ""
+"Batéria vo vašej myši (\"%1\") je vybitá a zariadenie sa môže samo vypnúť. "
+"Prosím, vymeňte alebo nabite batériu čo najskôr."
+
+#: powerdevilcore.cpp:548
+#, kde-format
+msgid "Keyboard Battery Low (%1% Remaining)"
+msgstr "Nízka úroveň batérie klávesnice (%1% zostáva)"
+
+#: powerdevilcore.cpp:550
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in your keyboard (\"%1\") is low, and the device may turn itself "
+"off at any time. Please replace or charge the battery as soon as possible."
+msgstr ""
+"Batéria vo vašej klávesnici (\"%1\") je vybitá a zariadenie sa môže samo "
+"vypnúť. Prosím, vymeňte alebo nabite batériu čo najskôr."
+
+#: powerdevilcore.cpp:555
+#, kde-format
+msgctxt "The battery in an external device"
+msgid "Device Battery Low (%1% Remaining)"
+msgstr "Nízka úroveň batérie zariadenia (%1% zostáva)"
+
+#: powerdevilcore.cpp:557
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid ""
+"The battery in a connected device (\"%1\") is low, and the device may turn "
+"itself off at any time. Please replace or charge the battery as soon as "
+"possible."
+msgstr ""
+"Batéria v pripojenom zariadení (\"%1\") je vybitá a zariadenie sa môže samo "
+"vypnúť. Prosím, vymeňte alebo nabite batériu čo najskôr."
+
+#: powerdevilcore.cpp:581
+#, kde-format
+msgid "Battery Low (%1% Remaining)"
+msgstr "Nízka úroveň batérie (%1% zostáva)"
+
+#: powerdevilcore.cpp:582
+#, kde-format
+msgid ""
+"Your battery is low. If you need to continue using your computer, either "
+"plug in your computer, or shut it down and then change the battery."
+msgstr ""
+"Vaša batéria je slabá. Ak potrebujete používať naďalej svoj počítať, "
+"pripojte napájanie alebo vypnite počítač a nabite batériu."
+
+#: powerdevilcore.cpp:593
+#, kde-format
+msgid "Battery Critical (%1% Remaining)"
+msgstr "Kritická úroveň batérie (%1% zostáva)"
+
+#: powerdevilcore.cpp:595
+#, kde-format
+msgctxt ""
+"Cancel timeout that will automatically suspend system because of low battery"
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: powerdevilcore.cpp:604
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be halted in 60 seconds."
+msgstr "Úroveň batérie je kritická, počítač bude vypnutý za 60 sekúnd."
+
+#: powerdevilcore.cpp:609
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be hibernated in 60 "
+"seconds."
+msgstr "Úroveň batérie je kritická, počítač bude hibernovaný za 60 sekúnd."
+
+#: powerdevilcore.cpp:614
+#, kde-format
+msgid ""
+"Your battery level is critical, the computer will be suspended in 60 seconds."
+msgstr "Úroveň batérie je kritická, počítač bude uspatý do RAM za 60 sekúnd."
+
+#: powerdevilcore.cpp:619
+#, kde-format
+msgid "Your battery level is critical, save your work as soon as possible."
+msgstr "Úroveň vašej batérie je kritická, uložte si svoju prácu čo najskôr."
+
+#: powerdevilcore.cpp:642
+#, kde-format
+msgid "AC Adapter Plugged In"
+msgstr "Napájací adaptér zapojený"
+
+#: powerdevilcore.cpp:645
+#, kde-format
+msgid "Running on AC power"
+msgstr "Beží na napätie zo siete"
+
+#: powerdevilcore.cpp:645
+#, kde-format
+msgid "The power adaptor has been plugged in."
+msgstr "Napájanie zo siete bolo pripojené."
+
+#: powerdevilcore.cpp:648
+#, kde-format
+msgid "Running on Battery Power"
+msgstr "Beží na batériu"
+
+#: powerdevilcore.cpp:648
+#, kde-format
+msgid "The power adaptor has been unplugged."
+msgstr "Napájanie zo siete bolo odpojené."
+
+#: powerdevilcore.cpp:654
+#, kde-format
+msgid ""
+"KDE Power Management System could not be initialized. The backend reported "
+"the following error: %1\n"
+"Please check your system configuration"
+msgstr ""
+"Systém správy napájania pre KDE sa nepodarilo inicializovať. Backend oznámil "
+"nasledujúcu chybu: %1\n"
+"Skontrolujte nastavenie systému"
+
+#: powerdevilcore.cpp:715
+#, kde-format
+msgid "Charge Complete"
+msgstr "Nabíjanie ukončené"
+
+#: powerdevilcore.cpp:715
+#, kde-format
+msgid "Your battery is now fully charged."
+msgstr "Vaša batéria je teraz plne nabitá."
